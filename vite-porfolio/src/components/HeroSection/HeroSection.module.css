@@ -1,0 +1,63 @@
+.hero__btns {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.hire__btn {
+  background: #FFF;
+  color: #0E1B31;
+}
+
+.hire__btn a {
+  text-decoration: none;
+}
+
+.hire__btn:hover a {
+  color: #0E1B31;
+}
+
+.hero__title span {
+  color: #00ABF0;
+}
+
+.hero__title {
+  font-weight: 600;
+}
+
+.hero__img{
+ width: 400px;
+ height: 400px;
+ border-radius: 10px;
+ background: #00ABF0;
+ margin-left: auto;
+}
+
+.hero__section {
+  padding-top: 150px;
+}
+
+
+.btncito {
+  background: #00ABF0;
+  color: #FFF;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-size: .9rem;
+  padding: 7px 25px;
+  line-height: 30px;
+}
+
+.btn:hover {
+ color: #FFF;
+}
+
+.mp__4 {
+  padding-top: 30px;
+}
+
+.hero__content p {
+  line-height: 30px;
+  font-weight: 300;
+}
