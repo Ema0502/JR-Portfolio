@@ -12,15 +12,15 @@ const Header = () => {
       url: "#about",
     },
     {
-      display: "Services",
+      display: "Servicios",
       url: "#services",
     },
     {
-      display: "Porfolio",
-      url: "#porfolio",
+      display: "Portfolio",
+      url: "#portfolio",
     },
     {
-      display: "Contact",
+      display: "Contacto",
       url: "#contact",
     },
   ];
