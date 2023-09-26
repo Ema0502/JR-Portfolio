@@ -12,6 +12,16 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
+  --colorBlanco: #ffffff;
+  --colorGris: #919191;
+  --colorGrisClaro: #C1CEFF;
+  --colorNegro: #000000;
+  --colorAzulClaro: #282F4E; 
+  --colorAzulOscuro: #0E1B31;
+  --colorAzulOscuro13: #132347;
+  --colorAzulOscuro10: #102048;
+  --colorCeleste: #00ABF0;
 }
 
 

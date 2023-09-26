@@ -29,7 +29,7 @@
 
 .logo h5 {
   font-size: 1.3rem;
-  color: #00ABF0;
+  color: var(--colorCeleste);
 }
 
 .nav__list {
@@ -47,11 +47,11 @@
 }
 
 .nav__item a:hover {
-  color: #00ABF0;
+  color: var(--colorCeleste);
 }
 
 .btn {
-  background: #00ABF0;
+  background: var(--colorCeleste);
   color: #FFF;
   border: none;
   outline: none;

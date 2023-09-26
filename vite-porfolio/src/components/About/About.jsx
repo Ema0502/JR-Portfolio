@@ -1,8 +1,12 @@
 import style from "./About.module.css"
 import { Container, Row, Col } from "reactstrap";
-import aboutImg from "../../img/Captura_de_pantalla_2023-08-20_081923-removebg-preview.png";
+import { useState } from "react";
+import Education from "./Education";
 
 const About = () => {
+
+  const [aboutFilter, setAboutFilter] = useState("ABOUT");
+
   return (
     <section id="about">
       <Container>
@@ -11,8 +15,8 @@ const About = () => {
 
           <Col lg="4" md="3">
             <div className={style.about__btns}>
-              <button className={style.about__btn}>Acerca de mi</button>
-              <button className={style.about__btn}>Experiencia Academica</button>
+              <button className={style.about__btn} onClick={() => setAboutFilter("ABOUT")}>Acerca de mi</button>
+              <button className={style.about__btn} onClick={() => setAboutFilter("EDUCATION")}>Experiencia Academica</button>
               <button className={style.about__btn}>Habilidades</button>
               <button className={style.about__btn}>Award</button>
             </div>
@@ -20,14 +24,27 @@ const About = () => {
 
           <Col lg="8" md="9">
             <div className={style.about__content__wrapper}>
-              <div className={style.about__img}>
-                <img src={aboutImg} alt="" className="w-100" />
-              </div>
+            {
+              aboutFilter === "ABOUT" && (
+                <div className="">
+                  <div className={`${style.about__content} ${style.w75}`}>
+                  <h3>Yo soy José Emanuel Rosas</h3>
+                  <p>Desde chico estuve interesado en el mundo IT, estudié y trabajé como técnico en reparación de PC. Hoy tengo mas de 700horas de codeo gracias al Bootcamp de soyHenry.</p>
 
-              <div className={style.about__content}>
-                <h2>Yo soy José Rosas</h2>
-                <p></p>
-              </div>
+                  <div className={style.social__links}>
+                    <h6>Conectate conmigo</h6>
+                    <span><a href="#"><i className="ri-instagram-fill"></i></a></span>
+                    <span><a href="#"><i className="ri-linkedin-fill"></i></a></span>
+                    <span><a href="#"><i className="ri-github-fill"></i></a></span>
+                  </div>
+                </div>
+              </div>)
+            }
+
+            {
+              aboutFilter === "EDUCATION" && <Education />
+            }
+              
             </div>
           </Col>
         </Row>

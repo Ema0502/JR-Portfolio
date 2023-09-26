@@ -6,7 +6,7 @@
 
 .hire__btn {
   background: #FFF;
-  color: #0E1B31;
+  color: var(--colorAzulOscuro);
 }
 
 .hire__btn a {
@@ -14,11 +14,11 @@
 }
 
 .hire__btn:hover a {
-  color: #0E1B31;
+  color: var(--colorAzulOscuro);
 }
 
 .hero__title span {
-  color: #00ABF0;
+  color: var(--colorCeleste);
 }
 
 .hero__title {
@@ -29,7 +29,7 @@
  width: 400px;
  height: 400px;
  border-radius: 10px;
- background: #00ABF0;
+ background: var(--colorCeleste);
  margin-left: auto;
 }
 
@@ -39,7 +39,7 @@
 
 
 .btncito {
-  background: #00ABF0;
+  background: var(--colorCeleste);
   color: #FFF;
   border: none;
   outline: none;
