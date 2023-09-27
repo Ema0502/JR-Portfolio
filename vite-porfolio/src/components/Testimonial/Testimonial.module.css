@@ -1,0 +1,19 @@
+.single__testimonial {
+  align-items: stretch;
+  padding: 10px 30px 30px 30px;
+}
+
+.single__testimonial p {
+  margin-bottom: 15px;
+}
+
+.single__testimonial h6 {
+  margin-bottom: 10px;
+  color: var(--colorCeleste);
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+.single__testimonial .title {
+  font-weight: 300 !important;
+  font-size: 1rem;
+}

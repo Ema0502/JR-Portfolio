@@ -12,12 +12,12 @@ const About = () => {
     <section id="about">
       <Container>
         <Row>
-          <Col lg="12" className="mb-5"><h2>Acerca de mi</h2></Col>
+          <Col lg="12" className="mb-5"><h2>Acerca de mí</h2></Col>
 
           <Col lg="4" md="3">
             <div className={style.about__btns}>
-              <button className={`${style.about__btn} ${aboutFilter === "ABOUT" ? style.about__btn_active : ""}`} onClick={() => setAboutFilter("ABOUT")}>Acerca de mi</button>
-              <button className={`${style.about__btn} ${aboutFilter === "EDUCATION" ? style.about__btn_active : ""}`} onClick={() => setAboutFilter("EDUCATION")}>Experiencia Academica</button>
+              <button className={`${style.about__btn} ${aboutFilter === "ABOUT" ? style.about__btn_active : ""}`} onClick={() => setAboutFilter("ABOUT")}>Acerca de mí</button>
+              <button className={`${style.about__btn} ${aboutFilter === "EDUCATION" ? style.about__btn_active : ""}`} onClick={() => setAboutFilter("EDUCATION")}>Experiencia Académica</button>
               <button className={`${style.about__btn} ${aboutFilter === "SKILLS" ? style.about__btn_active : ""}`} onClick={() => setAboutFilter("SKILLS")}>Tecnologías</button>
             </div>
           </Col>

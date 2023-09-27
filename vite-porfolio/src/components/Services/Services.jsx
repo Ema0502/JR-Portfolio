@@ -16,7 +16,7 @@ const Services = () => {
     },
     {
       icon: "ri-image-edit-line",
-      title: "Diseñador Grafico",
+      title: "Diseñador Gráfico",
       desc: "Manejo de herramientas de diseño como Photoshop, Illustrator y CorelDRAW. Transformar conceptos abstractos en diseños visuales impactantes, desde gráficos para impresión hasta elementos para la web."
     },
     {

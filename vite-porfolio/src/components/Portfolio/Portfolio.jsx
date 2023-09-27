@@ -10,7 +10,7 @@ const Portfolio = () => {
     {
       image: imgVehiBuy,
       title: "VehiBuy",
-      url: "#"
+      url: "#https://github.com/GeroPazPapa1/Proyecto-Final-De-La-Graduacion"
     },
     {
       image: imgDogo,
@@ -20,7 +20,7 @@ const Portfolio = () => {
     {
       image: imgPokemon,
       title: "Pokemons App",
-      url: "#"
+      url: "#https://github.com/Ema0502/PI-Pokemon-main"
     }
   ]
 
@@ -29,7 +29,7 @@ const Portfolio = () => {
       <Container>
         <Row>
           <Col lg="12" className={style.portfolio__top}>
-            <h2>Portfolio</h2>
+            <h2 className="mb-4">Portfolio</h2>
           </Col>
 
           {
