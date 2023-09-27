@@ -16,10 +16,9 @@ const About = () => {
 
           <Col lg="4" md="3">
             <div className={style.about__btns}>
-              <button className={style.about__btn} onClick={() => setAboutFilter("ABOUT")}>Acerca de mi</button>
-              <button className={style.about__btn} onClick={() => setAboutFilter("EDUCATION")}>Experiencia Academica</button>
-              <button className={style.about__btn} onClick={() => setAboutFilter("SKILLS")}>Habilidades</button>
-              <button className={style.about__btn}>Award</button>
+              <button className={`${style.about__btn} ${aboutFilter === "ABOUT" ? style.about__btn_active : ""}`} onClick={() => setAboutFilter("ABOUT")}>Acerca de mi</button>
+              <button className={`${style.about__btn} ${aboutFilter === "EDUCATION" ? style.about__btn_active : ""}`} onClick={() => setAboutFilter("EDUCATION")}>Experiencia Academica</button>
+              <button className={`${style.about__btn} ${aboutFilter === "SKILLS" ? style.about__btn_active : ""}`} onClick={() => setAboutFilter("SKILLS")}>Tecnologías</button>
             </div>
           </Col>
 
@@ -29,17 +28,20 @@ const About = () => {
               aboutFilter === "ABOUT" && (
                 <div className="">
                   <div className={`${style.about__content} ${style.w75}`}>
-                  <h3>Yo soy José Emanuel Rosas</h3>
-                  <p>Desde chico estuve interesado en el mundo IT, estudié y trabajé como técnico en reparación de PC. Hoy tengo mas de 700horas de codeo gracias al Bootcamp de soyHenry.</p>
+                    <h3 className={style.about__padding_text}>Mi nombre es José Emanuel Rosas</h3>
+                    <p className={style.about__padding_text}>Desde chico estuve interesado en el mundo IT, estudié y trabajé como técnico en reparación de PC. Hoy tengo mas de 700horas de codeo gracias al Bootcamp de soyHenry.
+                    Actualmente me dedico a desarrollar proyectos que me permiten avanzar y potenciar mi formación como programador.
+                    </p>
 
-                  <div className={style.social__links}>
-                    <h6>Conectate conmigo</h6>
-                    <span><a href="#"><i className="ri-instagram-fill"></i></a></span>
-                    <span><a href="#"><i className="ri-linkedin-fill"></i></a></span>
-                    <span><a href="#"><i className="ri-github-fill"></i></a></span>
+                    <div className={style.social__links}>
+                      <h6 className={style.about__padding_text}>Conectate conmigo</h6>
+                      <span><a href="#"><i className="ri-whatsapp-fill"></i></a></span>
+                      <span><a href="#"><i className="ri-linkedin-fill"></i></a></span>
+                      <span><a href="#"><i className="ri-github-fill"></i></a></span>
+                      <span><a href="#"><i className="ri-instagram-fill"></i></a></span>
+                    </div>
                   </div>
-                </div>
-              </div>)
+                </div>)
             }
 
             {

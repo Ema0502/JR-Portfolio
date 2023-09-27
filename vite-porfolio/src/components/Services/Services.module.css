@@ -1,0 +1,41 @@
+.service__container {
+  display: flex;
+}
+
+.service__top {
+  position: relative;
+}
+
+.single__service {
+  background: var(--colorAzulOscuro13);
+  padding: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  border-bottom: 1px solid var(--colorCeleste);
+  transition: 0.3s;
+}
+
+.single__service h2 {
+  font-size: 1.4rem;
+  margin-bottom: 15px;
+}
+
+.single__service p {
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.single__service:hover {
+  transform: translateY(-15px);
+}
+
+.service__icon {
+  color: var(--colorCeleste);
+  font-size: 2.2rem;
+}
+
+.service__top {
+  color: var(--colorCeleste);
+  margin-bottom: 15px;
+  margin-top: 15px;
+}

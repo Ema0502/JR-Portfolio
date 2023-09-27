@@ -1,5 +1,6 @@
 .skills__wrapper {
   display: flex;
+  width: 100%;
   gap: 5px;
   background: var(--colorAzulOscuro13);
   padding: 10px;

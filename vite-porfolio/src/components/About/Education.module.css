@@ -20,7 +20,7 @@ td {
   font-size: 0.9rem;
   color: var(--colorBlanco);
   font-weight: 550;
-  padding: 18px 0px 18px 0px;
+  padding: 23px 0px 23px 0px;
 }
 
 tr:nth-child(even) {

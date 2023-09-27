@@ -75,7 +75,7 @@
  display: none;
 }
 
-/* .header__shrink {
-  background: #123247;
+.header__shrink {
+  background: var(--colorAzulOscuro13);
   box-shadow: 2px 2px 4px -2px #00acf0bb;
-} */
+}

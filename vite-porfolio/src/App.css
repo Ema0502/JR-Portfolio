@@ -62,3 +62,15 @@ a:hover {
 section, footer {
   padding: 60px 0px;
 }
+
+/* custom scroll bar */
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: var(--colorGrisClaro);
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 2em;
+  background: var(--colorAzulClaro);
+}

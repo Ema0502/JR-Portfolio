@@ -1,7 +1,11 @@
 import { Container } from "reactstrap";
 import style from "./Header.module.css";
+import { useEffect, useState  } from "react";
 
 const Header = () => {
+
+  const [isHeaderShrink, setIsHeaderShrink] = useState(false);
+
   const navLinks = [
     {
       display: "Home",
@@ -25,8 +29,31 @@ const Header = () => {
     },
   ];
 
+  const handleClick = (event) => {
+    event.preventDefault();
+    const targetAttr = event.target.getAttribute("href");
+    const location = document.querySelector(targetAttr).offSetTop;
+
+    window.scrollTo({
+      left: 0,
+      top: location - 70,
+    })
+  }
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsHeaderShrink(window.scrollY > 80);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
-    <div className={style.header}>
+    <div className={`${style.header} ${isHeaderShrink ? style.header__shrink : ''}`}>
       <Container>
         <div className={style.navigation}>
           <div className={style.logo}>
@@ -38,7 +65,7 @@ const Header = () => {
               {navLinks.map((item, index) => {
                 return (
                   <li key={index} className={style.nav__item}>
-                    <a href={item.url}>{item.display}</a>
+                    <a href={item.url} onClick={handleClick}>{item.display}</a>
                   </li>
                 );
               })}
