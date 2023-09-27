@@ -1,6 +1,6 @@
 import style from "./HeroSection.module.css";
 import { Container, Row, Col } from "reactstrap";
-import heroImage from "../../img/Captura_de_pantalla_2023-08-20_081923-removebg-preview.png";
+import heroImage from "../../img/Captura de pantalla 2023-09-26 174445.png";
 import { useRef, useEffect } from "react";
 import { init } from "ityped";
 

@@ -1,0 +1,50 @@
+.skills__wrapper {
+  display: flex;
+  gap: 5px;
+  background: var(--colorAzulOscuro13);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.frontend__skills {
+  width: 50%;
+}
+
+.backend__skills {
+  width: 50%;
+}
+
+.skill__bar {
+  height: 5px;
+  width: 100%;
+  position: relative;
+  background: var(--colorGrisClaro);
+  border-radius: 50px;
+  z-index: 999;
+}
+
+.skill__bar_percentage {
+  background: var(--colorCeleste);
+  width: 50%;
+  height: 5px;
+  position: absolute;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  border-radius: 50px;
+}
+
+.skill__title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.skill__title span {
+  color: var(--colorBlanco);
+}
+
+.skill__data {
+  margin-bottom: 3px;
+}

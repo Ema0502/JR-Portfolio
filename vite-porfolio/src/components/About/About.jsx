@@ -2,6 +2,7 @@ import style from "./About.module.css"
 import { Container, Row, Col } from "reactstrap";
 import { useState } from "react";
 import Education from "./Education";
+import Skills from "./Skills";
 
 const About = () => {
 
@@ -17,7 +18,7 @@ const About = () => {
             <div className={style.about__btns}>
               <button className={style.about__btn} onClick={() => setAboutFilter("ABOUT")}>Acerca de mi</button>
               <button className={style.about__btn} onClick={() => setAboutFilter("EDUCATION")}>Experiencia Academica</button>
-              <button className={style.about__btn}>Habilidades</button>
+              <button className={style.about__btn} onClick={() => setAboutFilter("SKILLS")}>Habilidades</button>
               <button className={style.about__btn}>Award</button>
             </div>
           </Col>
@@ -43,6 +44,10 @@ const About = () => {
 
             {
               aboutFilter === "EDUCATION" && <Education />
+            }
+
+            {
+              aboutFilter === "SKILLS" && <Skills />
             }
               
             </div>
