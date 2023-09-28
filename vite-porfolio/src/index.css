@@ -59,3 +59,23 @@ button {
     background-color: #f9f9f9;
   }
 }
+
+
+@media (max-width: 668px) {
+  body {
+    margin: 0; /* Asegúrate de quitar el margen predeterminado del cuerpo */
+  }
+  
+  html {
+    max-width: 668px; /* Limita el ancho del fondo de la página al mismo valor que el cuerpo */
+    margin: 0 auto; /* Centra el contenido del fondo de la página */
+    overflow-x: hidden; /* Evita que el contenido ancho provoque barras de desplazamiento horizontales */
+  }
+  
+  /* O si estás utilizando un contenedor específico como #root en React */
+  #root {
+    max-width: 668px; /* Limita el ancho del fondo de la página al mismo valor que el cuerpo */
+    margin: 0 auto; /* Centra el contenido del fondo de la página */
+    overflow-x: hidden; /* Evita que el contenido ancho provoque barras de desplazamiento horizontales */
+  }
+}

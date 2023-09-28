@@ -56,7 +56,6 @@
 
 @media (max-width: 668px) {
   .service__container {
-    width: 32%;
     display: block;
   }
 

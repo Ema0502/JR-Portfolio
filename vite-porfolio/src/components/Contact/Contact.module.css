@@ -39,7 +39,6 @@
 
 @media (max-width: 668px) {
   .contact__info_container {
-    width: 32%;
     flex-direction: column;
   }
 

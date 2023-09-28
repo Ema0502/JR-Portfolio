@@ -29,17 +29,8 @@
 @media (max-width: 668px) {
   
   .footer p {
-    width: 60%;
     margin: 0 5vw;
     margin-left: 9vw;
-  }
-
-  .container2{
-    width: 25%;
-  }
-
-  .containerList {
-    width: 38%;
   }
 
   .logo_JR {

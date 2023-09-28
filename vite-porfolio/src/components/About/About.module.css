@@ -97,12 +97,8 @@
 
 @media (max-width: 668px) {
 
-  h2 {
-    width: 32%;
-  }
 
   .about__content__wrapper {
-    width: 32%;
     padding: 0px;
   }
   .w75,
@@ -116,12 +112,10 @@
   }
 
   .about__btns {
-    width: 32%;
     margin-bottom: 40px;
   }
 
   .about__content h2 {
-    width: 32%;
     font-size: 1.5rem;
   }
 
@@ -130,7 +124,6 @@
   }
 
   .about__img {
-    width: 32%;
     height: 102px;
   }
 }
