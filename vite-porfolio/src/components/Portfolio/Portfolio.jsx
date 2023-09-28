@@ -10,17 +10,17 @@ const Portfolio = () => {
     {
       image: imgVehiBuy,
       title: "VehiBuy",
-      url: "#https://github.com/GeroPazPapa1/Proyecto-Final-De-La-Graduacion"
+      url: "https://vehibuy-rho.vercel.app/"
     },
     {
       image: imgDogo,
       title: "Dogs App",
-      url: "#https://github.com/Ema0502/PI-Dogs-main"
+      url: "https://github.com/Ema0502/PI-Dogs-main"
     },
     {
       image: imgPokemon,
       title: "Pokemons App",
-      url: "#https://github.com/Ema0502/PI-Pokemon-main"
+      url: "https://deploy-pokemon-pi-woad.vercel.app/"
     }
   ]
 
@@ -40,7 +40,7 @@ const Portfolio = () => {
 
                   <div className={style.portfolio__content}>
                       <h6>{item.title}</h6>
-                      <a href={item.url}>Ver en vivo</a>
+                      <a href={item.url} target="_blank" rel="noopener noreferrer">Ver en vivo</a>
                     <h5>Landing page</h5>
                   </div>
                 </div>
