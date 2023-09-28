@@ -26,3 +26,10 @@ td {
 tr:nth-child(even) {
   background: var(--colorAzulOscuro10);
 }
+
+@media only screen and (max-width: 992px) {
+  th, td {
+    font-size: 0.7rem;
+    padding: 0.8rem;
+  }
+}

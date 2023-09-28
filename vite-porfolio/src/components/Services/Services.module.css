@@ -39,3 +39,15 @@
   margin-bottom: 15px;
   margin-top: 15px;
 }
+
+@media only screen and (max-width: 992px) {
+  .single__service h2 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+  }
+
+  .single__service p {
+    font-size: 0.7rem;
+    line-height: 28px;
+  }
+}

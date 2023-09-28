@@ -58,3 +58,23 @@
 .custom_col {
   min-height: 100%;
 }
+
+@media only screen and (max-width: 992px) {
+  .single__experience h6 {
+    font-size: 0.7rem;
+  }
+
+  .single__experience h5 {
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+  }
+
+  .single__experience p {
+    font-size: 0.7rem;
+    line-height: 28px;
+  }
+
+  .single__experience_container {
+    margin-bottom: 40px;
+  }
+}

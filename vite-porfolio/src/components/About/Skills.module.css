@@ -49,3 +49,13 @@
 .skill__data {
   margin-bottom: 3px;
 }
+
+@media only screen and (max-width: 992px) {
+  .skill__title h6 {
+    font-size: 0.8rem;
+  }
+
+  .skill__title span {
+    font-size: 0.7rem;
+  }
+}

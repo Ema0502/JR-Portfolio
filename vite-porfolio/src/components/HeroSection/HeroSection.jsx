@@ -31,8 +31,7 @@ const HeroSection = () => {
                 Si puedo ayudarlo/a no dude a escribirme!</p>
 
               <div className={`${style.hero__btns} ${style.mp__4}`}>
-                <button className={`${style.btn} ${style.hire__btn}`}><a href="#">Contratar</a></button>
-                <button className={style.btncito}>Contacto</button>
+                <button className={style.btncito}><a aria-label="Chat en WhatsApp" href="https://wa.me/543876298577">Contacto</a></button>
               </div>
             </div>
           </Col>

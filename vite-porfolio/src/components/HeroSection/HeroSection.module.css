@@ -61,3 +61,37 @@
   line-height: 30px;
   font-weight: 300;
 }
+
+/* responsive */
+
+@media only screen and (max-width: 992px) {
+  .hero__img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .hero__content p {
+    font-size: 0.8rem;
+  }
+
+  .hero__btns button {
+    display: block;
+    padding: 5px 20px;
+    font-size: 0.8px;
+  }
+}
+
+
+@media only screen and (max-width: 576px) {
+  .hero__img {
+    margin: auto;
+  }
+
+  .hero__content p {
+    margin-bottom: 50px;
+  }
+
+  .hero__title {
+    font-size: 1.5rem;
+  }
+}
