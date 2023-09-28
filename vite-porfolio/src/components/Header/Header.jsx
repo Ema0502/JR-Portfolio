@@ -83,7 +83,7 @@ const Header = () => {
           </div>
 
           <div className={style.nav__right}>
-            <button className={style.btn}><a aria-label="Chat en WhatsApp" href="https://wa.me/543876298577">Consultas</a></button>
+            <button className={style.btn}><a aria-label="Chat en WhatsApp" href="https://wa.me/543876298577" target="_blank" rel="noopener noreferrer"><i className="ri-whatsapp-line"></i> Consultas</a></button>
             <span
               className={style.mobile__menu}
               onClick={handleMenuToggle}

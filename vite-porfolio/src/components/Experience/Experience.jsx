@@ -24,7 +24,7 @@ const Experience = () => {
     },
     {
       year: "2023",
-      title: "e commerce de autos",
+      title: "E-commerce de autos",
       desc: "Tareas realizadas: implementación LocalStorage con JWT, manejo de encriptacion utilizando Bcrypt, implementación del CRUD al servidor, entre otras tareas individual y grupalmente."
     },
   ]

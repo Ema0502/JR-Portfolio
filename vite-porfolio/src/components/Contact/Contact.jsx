@@ -1,6 +1,5 @@
 import style from "./Contact.module.css";
 import { Container, Row, Col } from "reactstrap";
-import Form from "../Form/Form";
 
 const Contact = () => {
   return (
@@ -11,7 +10,7 @@ const Contact = () => {
             <h2>Contacto</h2>
           </Col>
 
-          <Col lg="6" md="6">
+          <Col lg="6" md="6" className="w-100">
             <div className={style.contact__info_container}>
               <div className={style.single__info_box}>
                 <h6>Locación</h6>
@@ -35,10 +34,6 @@ const Contact = () => {
                 <p>Block 43 M, V. Palacios - Salta </p>
               </div>
             </div>
-          </Col>
-
-          <Col lg="6" md="6">
-            <Form />
           </Col>
         </Row>
       </Container>
