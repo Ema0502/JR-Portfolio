@@ -1,9 +1,10 @@
 import style from "./Contact.module.css";
 import { Container, Row, Col } from "reactstrap";
+import Form from "../Form/Form";
 
 const Contact = () => {
   return (
-    <section>
+    <section id="contact">
       <Container>
         <Row>
           <Col lg="12" className="mb-5">
@@ -37,6 +38,7 @@ const Contact = () => {
           </Col>
 
           <Col lg="6" md="6">
+            <Form />
           </Col>
         </Row>
       </Container>

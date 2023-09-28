@@ -4,6 +4,10 @@
   justify-content: space-between;
 }
 
+.logoJR {
+  width: 45px;
+  height: auto;
+}
 
 .header {
   width: 100%;

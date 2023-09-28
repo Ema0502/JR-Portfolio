@@ -1,6 +1,7 @@
 import { Container } from "reactstrap";
 import style from "./Header.module.css";
 import { useEffect, useState  } from "react";
+import logo_JR from "../../img/Captura de pantalla 2023-08-12 230401.png";
 
 const Header = () => {
 
@@ -57,7 +58,7 @@ const Header = () => {
       <Container>
         <div className={style.navigation}>
           <div className={style.logo}>
-            <h5>José</h5>
+            <img className={style.logoJR} src={logo_JR} alt="Logo..." />
           </div>
 
           <div className={style.nav__menu}>

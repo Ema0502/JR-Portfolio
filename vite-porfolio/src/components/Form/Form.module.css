@@ -1,0 +1,29 @@
+.form {
+  width: 100%;
+  background: var(--colorAzulOscuro13);
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.form__input input, .form__input textarea {
+  width: 100%;
+  padding: 7px 15px;
+  color: var(--colorBlanco);
+  margin-bottom: 15px;
+  background: var(--colorAzulOscuro10);
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  font-size: 0.8rem;
+}
+
+.submit__btn {
+  margin-top: 15px;
+  padding: 7px 25px;
+  font-size: 0.9rem;
+  background: var(--colorCeleste);
+  color: var(--colorBlanco);
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}

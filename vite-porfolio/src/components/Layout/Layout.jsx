@@ -7,6 +7,7 @@ import Experience from "../Experience/Experience";
 import Portfolio from "../Portfolio/Portfolio";
 import Testimonial from "../Testimonial/Testimonial";
 import Contact from "../Contact/Contact";
+import Footer from "../Footer/Footer";
 
 const Layout = () => {
   return (
@@ -19,6 +20,7 @@ const Layout = () => {
       <Portfolio />
       <Testimonial />
       <Contact />
+      <Footer />
     </Fragment>
   )
 }
