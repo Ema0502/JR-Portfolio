@@ -9,7 +9,7 @@ const Footer = () => {
         <img className={style.logo} src={logo_JR} alt="Logo..." />
         <div className={style.container2}>
             <span>
-              Potenciando la Excelencia Tecnológica, escalando la Vanguardia Digital. Explora una selección exclusiva de habilidades y tecnologías en el desarrollo full stack que redefinen la elegancia y el rendimiento en el mundo digital. 
+              Potenciando la excelencia tecnológica y escalando la Vanguardia Digital, explora una selección exclusiva de habilidades y tecnologías en el desarrollo full stack que redefinen la elegancia y el rendimiento en el mundo digital. 
             </span>
         </div>
         

@@ -25,7 +25,7 @@ const Portfolio = () => {
   ]
 
   return (
-    <section>
+    <section id="portfolio">
       <Container>
         <Row>
           <Col lg="12" className={style.portfolio__top}>
