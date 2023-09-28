@@ -15,7 +15,7 @@ const Portfolio = () => {
     {
       image: imgDogo,
       title: "Dogs App",
-      url: "https://github.com/Ema0502/PI-Dogs-main"
+      url: "https://pi-dogs-main-two.vercel.app/"
     },
     {
       image: imgPokemon,
@@ -28,7 +28,7 @@ const Portfolio = () => {
     <section id="portfolio">
       <Container>
         <Row>
-          <Col lg="12" className={style.portfolio__top}>
+          <Col lg={12} className={style.portfolio__top}>
             <h2 className="mb-4">Portfolio</h2>
           </Col>
 

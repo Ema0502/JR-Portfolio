@@ -59,3 +59,33 @@
     font-size: 0.7rem;
   }
 }
+
+
+
+@media (max-width: 668px) {
+  .skills__wrapper {
+    flex-direction: column;
+    align-items: center;
+    padding: 15px; /* Ajuste del relleno */
+  }
+
+  .frontend__skills,
+  .backend__skills {
+    width: 100%;
+    margin-bottom: 10px; /* Espaciado entre las secciones de habilidades */
+  }
+
+  .skill__bar_percentage {
+    width: 100%; /* Barra de habilidades al 100% en pantallas más pequeñas */
+  }
+
+  .skill__title {
+    flex-direction: column; /* Alineación vertical del título */
+    text-align: center; /* Alineación central del texto */
+  }
+
+  .skill__title h6,
+  .skill__title span {
+    font-size: 0.8rem; /* Ajuste del tamaño de fuente */
+  }
+}

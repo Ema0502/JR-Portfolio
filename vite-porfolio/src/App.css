@@ -81,3 +81,28 @@ section, footer {
     padding: 40px 0px;
   }
 }
+
+
+
+
+@media (max-width: 668px) {
+  #root {
+    padding: 1rem; /* Reducción del relleno para dispositivos móviles */
+  }
+
+  body {
+    display: none;
+  }
+
+  h1, h2 {
+    font-size: 1.5rem; /* Reducción del tamaño de fuente para títulos en dispositivos móviles */
+  }
+
+  p {
+    font-size: 0.9rem; /* Reducción del tamaño de fuente para párrafos en dispositivos móviles */
+  }
+
+  section, footer {
+    padding: 30px 0; /* Reducción del relleno para secciones y pies de página en dispositivos móviles */
+  }
+}

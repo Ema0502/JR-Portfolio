@@ -53,3 +53,37 @@
   height: 240px;
   border-radius: 6px;
 }
+
+
+
+
+@media (max-width: 668px) {
+  .portfolio__top {
+    margin-bottom: 10px;
+  }
+
+  .portfolio__card {
+    width: 32%;
+    margin-bottom: 15px;
+  }
+
+  .portfolio__content {
+    transform: translateY(0);
+    opacity: 1;
+    border-radius: 6px;
+  }
+
+  .portfolio__content h5 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+  }
+
+  .portfolio__content a {
+    font-size: 0.8rem;
+  }
+
+  .portfolio__img img {
+    width: 100%;
+    border-radius: 6px;
+  }
+}

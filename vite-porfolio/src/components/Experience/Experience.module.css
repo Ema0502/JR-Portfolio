@@ -78,3 +78,43 @@
     margin-bottom: 40px;
   }
 }
+
+@media (max-width: 668px) {
+  .single__experience_container {
+    width: 32%;
+    padding: 20px; 
+    margin-bottom: 10px; 
+    margin-top: 10px; 
+  }
+
+  .single__experience {
+    padding: 10px 20px;
+  }
+
+  .single__experience h6 {
+    font-size: 0.7rem; 
+  }
+
+  .single__experience h5 {
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+  }
+
+  .single__experience p {
+    font-size: 0.7rem; 
+    line-height: 25px;
+  }
+
+  .single__experience_container::before {
+    display: none; 
+  }
+
+  .divcontainer {
+    flex-direction: column; 
+    gap: 10px;
+  }
+
+  .custom_col {
+    min-height: auto; 
+  }
+}

@@ -33,7 +33,7 @@ const Experience = () => {
     <section>
       <Container className={style.container}>
         <Row>
-          <Col lg="12" className="mb-5">
+          <Col lg-12="true" className="mb-5">
             <h2>Experiencia</h2>
           </Col>
 

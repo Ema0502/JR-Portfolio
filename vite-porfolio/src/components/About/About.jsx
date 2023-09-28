@@ -12,7 +12,7 @@ const About = () => {
     <section id="about">
       <Container>
         <Row>
-          <Col lg="12" className="mb-5"><h2>Acerca de mí</h2></Col>
+          <Col lg={12} className="mb-5"><h2>Acerca de mí</h2></Col>
 
           <Col lg="4" md="3">
             <div className={style.about__btns}>

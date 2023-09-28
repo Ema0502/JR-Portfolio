@@ -33,3 +33,38 @@ tr:nth-child(even) {
     padding: 0.8rem;
   }
 }
+
+
+
+
+@media (max-width: 668px) {
+  .table {
+    border: none;
+    border-collapse: collapse;
+    border: 1px solid var(--colorAzulOscuro13);
+    border-radius: 5px;
+  }
+
+  th,
+  td {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 0.7rem;
+  }
+
+  thead {
+    background: var(--colorCeleste);
+    color: var(--colorBlanco);
+  }
+
+  td {
+    font-size: 0.7rem;
+    color: var(--colorBlanco);
+    font-weight: 550;
+    padding: 0.8rem;
+  }
+
+  tr:nth-child(even) {
+    background: var(--colorAzulOscuro10);
+  }
+}

@@ -22,7 +22,7 @@ const HeroSection = () => {
         <Row>
           <Col lg="6" md="6">
             <div className={style.hero__content}>
-              <p className={style.mp__4}>Bienvenido!</p>
+              <h3 className={style.mp__4}>Bienvenido!</h3>
               <h2 className={`${style.hero__title} ${style.mp__4}`}>Yo soy 
                 <span ref={textRef}></span>
               </h2>
@@ -37,7 +37,7 @@ const HeroSection = () => {
           </Col>
 
           <Col lg="6" md="6">
-            <div className={style.hero__img}>
+            <div>
               <img src={heroImage} alt="" className={style.hero__img} />
             </div>
           </Col>

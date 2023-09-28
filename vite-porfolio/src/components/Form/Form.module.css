@@ -34,3 +34,23 @@
     font-size: 0.8rem;
   }
 }
+
+
+
+@media (max-width: 668px) {
+  .form {
+    padding: 15px; /* Ajuste del relleno para pantallas más pequeñas */
+  }
+
+  .form__input input,
+  .form__input textarea {
+    padding: 7px 10px; /* Ajuste del relleno para campos de entrada en pantallas más pequeñas */
+    margin-bottom: 10px; /* Espaciado inferior reducido */
+    font-size: 0.7rem; /* Ajuste del tamaño de fuente */
+  }
+
+  .submit__btn {
+    padding: 5px 20px; /* Ajuste del relleno para el botón en pantallas más pequeñas */
+    font-size: 0.8rem; /* Ajuste del tamaño de fuente */
+  }
+}

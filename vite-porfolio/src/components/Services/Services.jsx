@@ -34,27 +34,24 @@ const Services = () => {
   return (
     <section id="services">
       <Container>
-        <Row>
-          <div>
-          <Col lg-12 className={style.service__top}>
+        <Row className={style.flexColumn}>
+          <Col lg="12" className={`mb-4 ${style.service__top}`}>
             <h2>Servicios</h2>
-          </Col></div>
+          </Col>
 
           {servicesData.map((item, index) => (
             <Col lg="4" md="6" sm="6" key={index} className={`mb-4 ${style.service__container}`}>
-            <div className={style.single__service}>
-              <span className={style.service__icon}><i className={item.icon}></i></span>
-
-              <h2>{item.title}</h2>
-              <p>{item.desc}</p>
-            </div>
-          </Col>
+              <div className={style.single__service}>
+                <span className={style.service__icon}><i className={item.icon}></i></span>
+                <h2>{item.title}</h2>
+                <p>{item.desc}</p>
+              </div>
+            </Col>
           ))}
-
         </Row>
       </Container>
     </section>
-  )
+  );
 }
 
 export default Services;

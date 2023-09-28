@@ -10,14 +10,15 @@ const Testimonial = () => {
     speed: 500,
     autoplay: true,
     autoplaySpeed: 3000,
-    swipeToSlide: true
+    swipeToSlide: true,
+    arrows: false,
   }
 
   return (
     <section>
       <Container>
         <Row>
-          <Col lg="12" className="mb-5 text-center">
+          <Col lg={12} className="mb-5 text-center">
             <h2>Testimonio de Clientes</h2>
           </Col>
 

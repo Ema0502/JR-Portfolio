@@ -12,9 +12,7 @@
 /* footer template */
 
 .container2 {
-  display: flex;
   justify-content: space-between;
-  align-items: top;
   margin: 0 9vw;
   padding: 2vw 0;
   color: var(--colorBlanco);
@@ -22,47 +20,29 @@
   font-size: 12px;
   line-height: 17px;
 }
-
-.containerList {
-  display: flex;
-  flex-direction: column;
-}
-
-.logo {
+.logo_JR {
   width: 45px;
   height: auto;
 }
-/* 
 
-@media (max-width: 480px) {
-  .container2 {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-  }
-}
 
-@media (min-width: 481px) and (max-width: 639px) {
-  .container2 {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      column-gap: 2rem;
-      margin: 0 5vw;
-      margin-left: 9vw;
-  }
-}
-
-@media (min-width: 640px) {
-  .containerLeft {
-      margin: 0;
-      width: 19vw;
-  }
-} */
-
-/* ! */
-
-@media only screen and (max-width: 992px) {
+@media (max-width: 668px) {
+  
   .footer p {
-    font-size: 0.7rem;
+    width: 60%;
+    margin: 0 5vw;
+    margin-left: 9vw;
+  }
+
+  .container2{
+    width: 25%;
+  }
+
+  .containerList {
+    width: 38%;
+  }
+
+  .logo_JR {
+    margin-bottom: 14px;
   }
 }

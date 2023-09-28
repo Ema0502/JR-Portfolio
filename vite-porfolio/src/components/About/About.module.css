@@ -92,3 +92,45 @@
     height: 102px;
   }
 }
+
+
+
+@media (max-width: 668px) {
+
+  h2 {
+    width: 32%;
+  }
+
+  .about__content__wrapper {
+    width: 32%;
+    padding: 0px;
+  }
+  .w75,
+  .w25 {
+    width: 100%; /* Ajuste para ocupar todo el ancho en pantallas más pequeñas */
+  }
+
+  .about__btn {
+    padding: 10px 25px;
+    font-size: 0.8rem;
+  }
+
+  .about__btns {
+    width: 32%;
+    margin-bottom: 40px;
+  }
+
+  .about__content h2 {
+    width: 32%;
+    font-size: 1.5rem;
+  }
+
+  .about__content p {
+    font-size: 0.8rem;
+  }
+
+  .about__img {
+    width: 32%;
+    height: 102px;
+  }
+}

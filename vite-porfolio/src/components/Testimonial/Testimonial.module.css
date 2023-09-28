@@ -24,3 +24,27 @@
     line-height: 28px;
   }
 }
+
+
+
+
+@media (max-width: 668px) {
+  .single__testimonial {
+    width: 32%;
+    padding: 10px 15px 20px 15px;
+  }
+
+  .single__testimonial h6 {
+    font-size: 1rem;
+  }
+
+  .single__testimonial .title {
+    font-size: 0.9rem;
+  }
+
+  .single__testimonial p {
+    font-size: 0.8rem;
+    line-height: 26px;
+    margin-bottom: 10px;
+  } 
+}

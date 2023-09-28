@@ -33,3 +33,26 @@
     font-size: 0.7rem;
   }
 }
+
+
+/* responsive */
+
+@media (max-width: 668px) {
+  .contact__info_container {
+    width: 32%;
+    flex-direction: column;
+  }
+
+  .single__info_box {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .single__info_box p {
+    font-size: 0.8rem; 
+  }
+
+  .single__info_box h6 {
+    font-size: 1rem;
+  }
+}

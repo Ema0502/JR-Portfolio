@@ -129,3 +129,58 @@
     line-height: 50px;
   }
 }
+
+
+
+@media (max-width: 668px) {
+  .header {
+    height: 50px;
+    line-height: 50px;
+  }
+
+  .navigation {
+    justify-content: space-around;
+  }
+
+  .logoJR {
+    width: 40px;
+  }
+
+  .logo h5 {
+    font-size: 1.2rem; 
+  }
+
+  .nav__list {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--colorAzulOscuro13);
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    z-index: 999999;
+  }
+
+  .nav__item {
+    margin-bottom: 10px;
+  }
+
+  .nav__item a {
+    font-size: 1rem; 
+  }
+
+  .mobile__menu {
+    display: block;
+  }
+
+  .btn {
+    display: none;
+  }
+
+  .menu__active .nav__list {
+    display: flex;
+  }
+}

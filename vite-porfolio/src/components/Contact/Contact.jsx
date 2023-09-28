@@ -6,7 +6,7 @@ const Contact = () => {
     <section id="contact">
       <Container>
         <Row>
-          <Col lg="12" className="mb-5">
+          <Col lg={12} className="mb-5">
             <h2>Contacto</h2>
           </Col>
 
