@@ -22,7 +22,7 @@ const HeroSection = () => {
         <Row>
           <Col lg="6" md="6">
             <div className={style.hero__content}>
-              <h2 className={style.mp__4}>Bienvenido!</h2>
+              <h1 className={style.mp__4}>Bienvenido!</h1>
               <h2 className={`${style.hero__title} ${style.mp__4}`}>Yo soy
                 <span ref={textRef}></span>
               </h2>
