@@ -26,7 +26,7 @@ const HeroSection = () => {
               <h2 className={`${style.hero__title} ${style.mp__4}`}>Yo soy
                 <span ref={textRef}></span>
               </h2>
-              <p className={style.mp__4}>Soy un Desarrollador orientado al Back-end. Tengo mas de 700horas de codeo gracias al Bootcamp de soyHenry.
+              <p className={style.mp__4}>Soy un Desarrollador orientado al Back-end. Cuento con +800 horas de codeo gracias al Bootcamp de soyHenry.
                 Actualmente me dedico a desarrollar proyectos que me permiten avanzar y potenciar mi formación como programador. Me fascina poder encontrar la solución a los problemas de la vida codeando.
                 Si puedo ayudarlo/a no dude a escribirme!</p>
 
