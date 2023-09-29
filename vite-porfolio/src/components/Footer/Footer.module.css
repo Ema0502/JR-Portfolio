@@ -23,6 +23,7 @@
 .logo_JR {
   width: 45px;
   height: auto;
+  padding-bottom: 20px;
 }
 
 
@@ -34,6 +35,7 @@
   }
 
   .logo_JR {
+    padding-bottom: 5px;
     margin-bottom: 14px;
   }
 }
