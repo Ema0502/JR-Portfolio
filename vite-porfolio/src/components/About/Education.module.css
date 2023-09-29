@@ -6,6 +6,16 @@
   border-radius: 5px;
 }
 
+.container {
+  border-radius: 5px 0px 0px 5px;
+  padding: 10px;
+}
+
+.container2 {
+  border-radius: 0px 5px 5px 0px;
+  padding: 10px;
+}
+
 th td {
   padding: 1.3rem 1rem !important;
   font-size: 1rem;

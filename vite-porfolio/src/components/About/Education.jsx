@@ -5,10 +5,10 @@ const Education = () => {
     <table className={style.table}>
       <thead>
         <tr>
-          <th>Título</th>
+          <th className={style.container}>Título</th>
           <th>Especialidad</th>
           <th>Instituto</th>
-          <th>Año</th>
+          <th className={style.container2}>Año</th>
         </tr>
       </thead>
 

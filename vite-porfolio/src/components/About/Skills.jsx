@@ -5,46 +5,56 @@ const Skills = () => {
   const frontendSkills = [
     {
       title: "JavaScript",
-      percentage: "85%"
+      percentage: "100%",
+      grade: "Avanzado"
     },
     {
       title: "React js",
-      percentage: "86%"
+      percentage: "100%",
+      grade: "Avanzado"
     },
     {
       title: "Redux",
-      percentage: "85%"
+      percentage: "100%",
+      grade: "Avanzado"
     },
     {
       title: "HTML",
-      percentage: "70%"
+      percentage: "100%",
+      grade: "Avanzado"
     },
     {
       title: "CSS",
-      percentage: "65%"
+      percentage: "100%",
+      grade: "Intermedio"
     }
   ]
 
   const backendSkills = [
     {
       title: "Node js",
-      percentage: "86%"
+      percentage: "100%",
+      grade: "Avanzado"
     },
     {
       title: "Express",
-      percentage: "88%"
+      percentage: "100%",
+      grade: "Avanzado"
     },
     {
       title: "MySQL",
-      percentage: "83%"
+      percentage: "100%",
+      grade: "Avanzado"
     },
     {
       title: "TypeScript",
-      percentage: "50%"
+      percentage: "100%",
+      grade: "Inicial"
     },
     {
       title: "Nest js",
-      percentage: "50%"
+      percentage: "100%",
+      grade: "Inicial"
     }
   ]
 
@@ -56,7 +66,7 @@ const Skills = () => {
             <div className={style.skill__data} key={index}>
               <div className={style.skill__title}>
                 <h6>{item.title}</h6>
-                <span>{item.percentage}</span>
+                <span>{item.grade}</span>
               </div>
 
               <div className={style.skill__bar}>
@@ -73,7 +83,7 @@ const Skills = () => {
             <div className={style.skill__data} key={index}>
               <div className={style.skill__title}>
                 <h6>{item.title}</h6>
-                <span>{item.percentage}</span>
+                <span>{item.grade}</span>
               </div>
 
               <div className={style.skill__bar}>

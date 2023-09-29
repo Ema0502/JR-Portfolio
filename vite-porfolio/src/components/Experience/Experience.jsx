@@ -11,7 +11,7 @@ const Experience = () => {
     },
     {
       year: "2019 - 2022",
-      title: "Técnico en Reparación de PC",
+      title: "Servicio Técnico JR",
       desc: "Solucionar problemas al mal funcionamiento de Sistemas. Instalación de Sistema Operativo. Mantenimiento. Reparación. Actualización y optimización con programas y Drivers."
     },
   ]
@@ -19,12 +19,12 @@ const Experience = () => {
   const developmentExperienceData2 = [
     {
       year: "2022 - 2023",
-      title: "Zingueria Perón",
+      title: "E-commerce de Construcción",
       desc: "Tareas realizadas: Atención al publico, asistencia en tareas administrativas y consultas tecnicas."
     },
     {
       year: "2023",
-      title: "E-commerce de autos",
+      title: "E-commerce de Autos",
       desc: "Tareas realizadas: implementación LocalStorage con JWT, manejo de encriptacion utilizando Bcrypt, implementación del CRUD al servidor, entre otras tareas individual y grupalmente."
     },
   ]

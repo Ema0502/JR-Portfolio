@@ -12,7 +12,7 @@ const HeroSection = () => {
     init(textRef.current, {
       backDelay: 1500,
       showCursor: true,
-      strings: ['Jose Rosas','Full Stack Developer']
+      strings: [' Jose Rosas',' Full Stack Developer']
     })
   }, [])
 
@@ -22,8 +22,8 @@ const HeroSection = () => {
         <Row>
           <Col lg="6" md="6">
             <div className={style.hero__content}>
-              <h3 className={style.mp__4}>Bienvenido!</h3>
-              <h2 className={`${style.hero__title} ${style.mp__4}`}>Yo soy 
+              <h2 className={style.mp__4}>Bienvenido!</h2>
+              <h2 className={`${style.hero__title} ${style.mp__4}`}>Yo soy
                 <span ref={textRef}></span>
               </h2>
               <p className={style.mp__4}>Soy un Desarrollador orientado al Back-end. Tengo mas de 700horas de codeo gracias al Bootcamp de soyHenry.
