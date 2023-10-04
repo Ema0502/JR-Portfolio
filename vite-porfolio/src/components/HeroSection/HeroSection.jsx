@@ -31,7 +31,7 @@ const HeroSection = () => {
                 Si puedo ayudarlo/a no dude a escribirme!</p>
 
               <div className={`${style.hero__btns} ${style.mp__4}`}>
-                <button className={style.btncito}><a href="https://www.linkedin.com/in/jos%C3%A9-emanuel-rosas-31b1a8190/" target="_blank" rel="noopener noreferrer">Contacto</a></button>
+                <button className={style.btncito}><a href="https://www.linkedin.com/in/jos%C3%A9-emanuel-rosas-31b1a8190/" target="_blank" rel="noopener noreferrer"><i className="ri-linkedin-box-fill">   </i>Contacto</a></button>
               </div>
             </div>
           </Col>

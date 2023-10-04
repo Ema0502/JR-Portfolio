@@ -14,7 +14,7 @@ const Contact = () => {
             <div className={style.contact__info_container}>
               <div className={style.single__info_box}>
                 <h6>Locación</h6>
-                <p>Salta Capital, Argentina</p>
+                <p>Salta, Argentina</p>
               </div>
 
               <div className={style.single__info_box}>
@@ -31,7 +31,7 @@ const Contact = () => {
 
               <div className={style.single__info_box}>
                 <h6>Dirección</h6>
-                <p>Block 43 M, V. Palacios - Salta </p>
+                <p>V. Palacios - Salta Capital </p>
               </div>
             </div>
           </Col>

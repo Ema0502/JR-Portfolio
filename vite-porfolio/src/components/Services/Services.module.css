@@ -6,6 +6,10 @@
   position: relative;
 }
 
+.flexColumn {
+  justify-content: center;
+}
+
 .single__service {
   background: var(--colorAzulOscuro13);
   padding: 20px;

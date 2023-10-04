@@ -35,6 +35,11 @@ const Header = () => {
     },
   ];
 
+  const handleClickLogo = () => {
+    const bodyElement = document.querySelector('body');
+    bodyElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  };
+
   const handleClick = (event) => {
     event.preventDefault();
     const targetAttr = event.target.getAttribute("href");
@@ -69,7 +74,7 @@ const Header = () => {
       <Container>
         <div className={style.navigation}>
           <div className={style.logo}>
-            <img className={style.logoJR} src={logo_JR} alt="Logo..." />
+            <img className={style.logoJR} src={logo_JR} alt="Logo..." onClick={handleClickLogo} />
           </div>
 
           <div

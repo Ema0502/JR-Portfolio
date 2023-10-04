@@ -6,6 +6,12 @@
   width: 25%;
 }
 
+.span i {
+  display: inline-block;
+  width: 50px;
+  font-size: 27px;
+}
+
 .about__content__wrapper {
   display: flex;
   gap: 5px;
@@ -68,29 +74,6 @@
   display: flex;
   height: 192px;
   border-radius: 10px;
-}
-
-@media only screen and (max-width: 992px) {
-  .about__btn {
-    padding: 10px 25px;
-    font-size: 0.8rem;
-  }
-
-  .about__btns {
-    margin-bottom: 40px;
-  }
-
-  .about__content h2 {
-    font-size: 1.5rem;
-  }
-
-  .about__content p {
-    font-size: 0.8rem;
-  }
-
-  .about__img {
-    height: 102px;
-  }
 }
 
 

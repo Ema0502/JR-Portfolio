@@ -9,10 +9,12 @@
 
 .frontend__skills {
   width: 50%;
+  padding-right: 15px;
 }
 
 .backend__skills {
   width: 50%;
+  padding-left: 15px;
 }
 
 .skill__bar {
@@ -66,26 +68,28 @@
   .skills__wrapper {
     flex-direction: column;
     align-items: center;
-    padding: 15px; /* Ajuste del relleno */
+    padding: 15px;
   }
 
   .frontend__skills,
   .backend__skills {
     width: 100%;
-    margin-bottom: 10px; /* Espaciado entre las secciones de habilidades */
+    margin-bottom: 10px; 
+    padding-right: 0px;
+    padding-left: 0px;
   }
 
   .skill__bar_percentage {
-    width: 100%; /* Barra de habilidades al 100% en pantallas más pequeñas */
+    width: 100%; 
   }
 
   .skill__title {
-    flex-direction: column; /* Alineación vertical del título */
-    text-align: center; /* Alineación central del texto */
+    flex-direction: column; 
+    text-align: center;
   }
 
   .skill__title h6,
   .skill__title span {
-    font-size: 0.8rem; /* Ajuste del tamaño de fuente */
+    font-size: 0.8rem;
   }
 }
