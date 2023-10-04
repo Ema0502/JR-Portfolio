@@ -10,16 +10,20 @@ const Header = () => {
 
   const navLinks = [
     {
-      display: "Home",
+      display: "Inicio",
       url: "#home",
     },
     {
-      display: "About",
+      display: "Sobre mi",
       url: "#about",
     },
     {
       display: "Servicios",
       url: "#services",
+    },
+    {
+      display: "Experiencia",
+      url: "#experience",
     },
     {
       display: "Portfolio",

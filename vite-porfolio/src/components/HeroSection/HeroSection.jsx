@@ -1,6 +1,6 @@
 import style from "./HeroSection.module.css";
 import { Container, Row, Col } from "reactstrap";
-import heroImage from "../../img/Captura de pantalla 2023-09-26 174445.png";
+import heroImage from "../../img/Captura_de_pantalla_2023-08-20_081923-removebg-preview.png";
 import { useRef, useEffect } from "react";
 import { init } from "ityped";
 
@@ -23,7 +23,7 @@ const HeroSection = () => {
           <Col lg="6" md="6">
             <div className={style.hero__content}>
               <h1 className={style.mp__4}>Bienvenido!</h1>
-              <h2 className={`${style.hero__title} ${style.mp__4}`}>Yo soy
+              <h2 className={`${style.hero__title} ${style.mp__4}`}>Soy
                 <span ref={textRef}></span>
               </h2>
               <p className={style.mp__4}>Soy un Desarrollador orientado al Back-end. Cuento con +800 horas de codeo gracias al Bootcamp de soyHenry.

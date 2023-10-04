@@ -93,7 +93,6 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: #00acf06c;
     z-index: 888888;
     display: none;
   }
@@ -139,7 +138,7 @@
   }
 
   .navigation {
-    justify-content: space-around;
+    justify-content: space-between;
   }
 
   .logoJR {
