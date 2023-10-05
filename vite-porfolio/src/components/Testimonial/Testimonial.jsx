@@ -26,7 +26,7 @@ const Testimonial = () => {
             <Slider {...settings}>
               <div>
                 <div className={style.single__testimonial}>
-                  <p>Resolvió rápidamente los problemas de mi PC, fue profesional, amable y resolvió todas mis inquietudes de manera clara. Mi computadora funciona como nueva, ¡gracias al increíble equipo técnico por su servicio de calidad y atención al cliente excepcional!</p>
+                  <p>Resolvió rápidamente los problemas de mi PC, fue profesional, amable y resolvió todas mis inquietudes de manera clara. Mi computadora funciona como nueva, ¡gracias por su servicio de calidad y atención al cliente excepcional!</p>
                   <h6>Natalia Ocampo</h6>
                   <p className={style.title}>Docente</p>
                 </div>
@@ -42,7 +42,7 @@ const Testimonial = () => {
 
               <div>
                 <div className={style.single__testimonial}>
-                  <p>Desde el diseño de la interfaz hasta la implementación del backend, cada fase fue manejada con profesionalismo y destreza técnica. La aplicación resultante no solo cumple con todas mis expectativas, sino que va más allá. Un equipo apasionado y comprometido que realmente entiende el desarrollo integral.</p>
+                  <p>Desde el diseño de la interfaz hasta la implementación del backend, cada fase fue manejada con profesionalismo y destreza técnica. La aplicación resultante no solo cumple con todas mis expectativas, sino que va más allá. Una persona apasionada y comprometida que realmente entiende el desarrollo integral.</p>
                   <h6>Leonel Rojas</h6>
                   <p className={style.title}>Docente</p>
                 </div>
