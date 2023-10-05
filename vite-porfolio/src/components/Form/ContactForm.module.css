@@ -5,6 +5,21 @@
   border-radius: 5px;
 }
 
+label {
+  color: var(--colorBlanco);
+}
+
+h4 {
+  padding-bottom: 20px;
+}
+
+.span i {
+  display: inline-block;
+  width: 50px;
+  font-size: 27px;
+  color: var(--colorCeleste);
+}
+
 .form__input input, .form__input textarea {
   width: 100%;
   padding: 7px 15px;
@@ -39,18 +54,27 @@
 
 @media (max-width: 668px) {
   .form {
-    padding: 15px; /* Ajuste del relleno para pantallas más pequeñas */
+    padding: 15px;
   }
 
   .form__input input,
   .form__input textarea {
-    padding: 7px 10px; /* Ajuste del relleno para campos de entrada en pantallas más pequeñas */
-    margin-bottom: 10px; /* Espaciado inferior reducido */
-    font-size: 0.7rem; /* Ajuste del tamaño de fuente */
+    padding: 7px 10px;
+    margin-bottom: 10px;
+    font-size: 0.7rem; 
   }
 
   .submit__btn {
-    padding: 5px 20px; /* Ajuste del relleno para el botón en pantallas más pequeñas */
-    font-size: 0.8rem; /* Ajuste del tamaño de fuente */
+    padding: 5px 20px;
+    font-size: 0.8rem;
+  }
+
+  h4 {
+    font-size: 0.9rem;
+    padding-bottom: 12px;
+  }
+  
+  label {
+    color: var(--colorBlanco);
   }
 }
