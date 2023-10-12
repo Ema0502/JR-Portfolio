@@ -52,6 +52,10 @@
   margin-bottom: 3px;
 }
 
+.skill__title img {
+  width: 31px;
+}
+
 @media only screen and (max-width: 992px) {
   .skill__title h6 {
     font-size: 0.8rem;
