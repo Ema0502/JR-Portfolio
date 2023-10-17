@@ -11,7 +11,6 @@ const Testimonial = () => {
     autoplay: true,
     autoplaySpeed: 3000,
     swipeToSlide: true,
-    arrows: false,
   }
 
   return (
