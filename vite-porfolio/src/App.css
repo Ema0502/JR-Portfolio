@@ -3,10 +3,10 @@
 @import url("https://fonts.googleapis.com/css?family=Rubik:wght@300;400;500;600&display=swap");
 
 @font-face {
-    font-family: 'Anita Semi-square';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Anita Semi-square'), url('/src/fonts/Anita semi square.ttf') format('woff');
+  font-family: 'Anita Semi-square';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Anita Semi-square'), url('/src/fonts/AnitaSemiSquare.ttf') format('truetype');
 }
 
 #root {
