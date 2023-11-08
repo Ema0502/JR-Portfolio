@@ -6,7 +6,7 @@
     font-family: 'Anita Semi-square';
     font-style: normal;
     font-weight: 400;
-    src: local('Anita Semi-square'), url('/src/fonts/Anita\ semi\ square.ttf') format('woff');
+    src: local('Anita Semi-square'), url('/src/fonts/Anita semi square.ttf') format('woff');
 }
 
 #root {
