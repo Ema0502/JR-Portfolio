@@ -24,17 +24,6 @@
   font-size: 1.1rem;
 }
 
-@media only screen and (max-width: 992px) {
-  .single__info_box h6 {
-    font-size: 0.8rem;
-  }
-
-  .single__info_box p {
-    font-size: 0.7rem;
-  }
-}
-
-
 /* responsive */
 
 @media (max-width: 668px) {

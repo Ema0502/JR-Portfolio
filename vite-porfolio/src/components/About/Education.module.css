@@ -1,10 +1,14 @@
+
+.educationContainer {
+  overflow-x: auto;
+}
 .table {
   width: 100%;
-  border: none;
   border-collapse: collapse;
   border: 1px solid var(--colorAzulOscuro13);
   border-radius: 5px;
 }
+
 
 .container {
   border-radius: 5px 0px 0px 5px;
@@ -16,8 +20,8 @@
   padding: 10px;
 }
 
-th td {
-  padding: 1.3rem 1rem !important;
+th, td {
+  padding: 1rem;
   font-size: 1rem;
 }
 
@@ -30,51 +34,16 @@ td {
   font-size: 1rem;
   color: var(--colorBlanco);
   font-weight: 550;
-  padding: 20px 0px 20px 0px;
+  padding: 20px 0;
 }
 
 tr:nth-child(even) {
   background: var(--colorAzulOscuro10);
 }
 
-@media only screen and (max-width: 992px) {
-  th, td {
-    font-size: 0.7rem;
-    padding: 0.8rem;
-  }
-}
-
-
-
-
 @media (max-width: 668px) {
-  .table {
-    border: none;
-    border-collapse: collapse;
-    border: 1px solid var(--colorAzulOscuro13);
-    border-radius: 5px;
-  }
-
-  th,
-  td {
-    width: 100%;
-    padding: 0.8rem;
-    font-size: 1rem;
-  }
-
-  thead {
-    background: var(--colorCeleste);
-    color: var(--colorBlanco);
-  }
-
-  td {
-    font-size: 1rem;
-    color: var(--colorBlanco);
-    font-weight: 550;
-    padding: 0.8rem;
-  }
-
-  tr:nth-child(even) {
-    background: var(--colorAzulOscuro10);
+  th, td {
+    font-size: 0.8rem;
+    padding: 0.5rem;
   }
 }
