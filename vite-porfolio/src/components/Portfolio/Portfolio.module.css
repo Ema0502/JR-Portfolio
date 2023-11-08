@@ -58,6 +58,11 @@
 
 
 @media (max-width: 668px) {
+
+  h2 {
+    font-size: 1.7rem;
+  }
+  
   .portfolio__top {
     margin-bottom: 10px;
   }
@@ -67,12 +72,12 @@
   }
 
   .portfolio__content h5 {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     margin-bottom: 5px;
   }
 
   .portfolio__content a {
-    font-size: 0.8rem;
+    font-size: 1.2rem;
   }
 
   .portfolio__img img {

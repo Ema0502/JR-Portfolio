@@ -104,7 +104,7 @@ a {
   }
   .hero__content p {
     margin-bottom: 30px;
-    font-size: 0.9rem;
+    font-size: 1.1rem;
   }
 
   .hero__title {
@@ -115,5 +115,6 @@ a {
     width: 100%;
     display: block;
     padding: 5px 20px;
+    font-size: 1.1rem;
   }
 }

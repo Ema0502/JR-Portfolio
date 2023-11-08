@@ -29,20 +29,25 @@
 
 
 @media (max-width: 668px) {
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
   .single__testimonial {
     padding: 10px 15px 20px 15px;
   }
 
   .single__testimonial h6 {
-    font-size: 1rem;
+    font-size: 1.4rem;
   }
 
   .single__testimonial .title {
-    font-size: 0.9rem;
+    font-size: 1.4rem;
   }
 
   .single__testimonial p {
-    font-size: 0.8rem;
+    font-size: 1.1rem;
     line-height: 26px;
     margin-bottom: 10px;
   } 

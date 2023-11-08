@@ -38,6 +38,10 @@
 /* responsive */
 
 @media (max-width: 668px) {
+  h2 {
+    font-size: 1.5rem;
+  }
+
   .contact__info_container {
     flex-direction: column;
   }
@@ -48,10 +52,10 @@
   }
 
   .single__info_box p {
-    font-size: 0.8rem; 
+    font-size: 1.1rem; 
   }
 
   .single__info_box h6 {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 }

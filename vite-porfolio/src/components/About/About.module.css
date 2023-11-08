@@ -89,9 +89,13 @@
     width: 100%; /* Ajuste para ocupar todo el ancho en pantallas más pequeñas */
   }
 
+  h2 {
+    font-size: 1.7rem;
+  }
+
   .about__btn {
     padding: 10px 25px;
-    font-size: 0.8rem;
+    font-size: 1.1rem;
   }
 
   .about__btns {
@@ -103,10 +107,19 @@
   }
 
   .about__content p {
-    font-size: 0.8rem;
+    font-size: 1.1rem;
   }
 
   .about__img {
     height: 102px;
   }
+
+  .about__padding_text {
+    margin: 13px 13px 13px 13px;
+  }
+
+  .social__links span a i {
+    margin-bottom: 13px;
+  }
+
 }

@@ -38,11 +38,13 @@ const Portfolio = () => {
                 <div className={style.portfolio__card}>
                   <div className={style.portfolio__img}><img src={item.image} alt="" /></div>
 
+                  <a href={item.url} target="_blank" rel="noopener noreferrer">
                   <div className={style.portfolio__content}>
-                      <h6>{item.title}</h6>
-                      <a href={item.url} target="_blank" rel="noopener noreferrer">Ver en vivo</a>
+                      <h5>{item.title}</h5>
+                      <h6>Click aqui para ver en vivo</h6>
                     <h5>Landing page</h5>
                   </div>
+                  </a>
                 </div>
               </Col>
             ))

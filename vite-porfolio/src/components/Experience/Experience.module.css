@@ -85,22 +85,26 @@
     margin-bottom: 10px; 
     margin-top: 10px; 
   }
+  
+  h2 {
+    font-size: 1.7rem;
+  }
 
   .single__experience {
     padding: 10px 20px;
   }
 
   .single__experience h6 {
-    font-size: 0.7rem; 
+    font-size: 1.1rem; 
   }
 
   .single__experience h5 {
-    font-size: 0.9rem;
+    font-size: 1.5rem;
     margin-bottom: 10px;
   }
 
   .single__experience p {
-    font-size: 0.7rem; 
+    font-size: 1.1rem; 
     line-height: 25px;
   }
 

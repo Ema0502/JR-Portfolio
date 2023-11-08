@@ -54,6 +54,12 @@ h4 {
 
 
 @media (max-width: 668px) {
+
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+
   .form {
     padding: 15px;
   }
@@ -62,16 +68,16 @@ h4 {
   .form__input textarea {
     padding: 7px 10px;
     margin-bottom: 10px;
-    font-size: 0.7rem; 
+    font-size: 1.1rem; 
   }
 
   .submit__btn {
     padding: 5px 20px;
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 
   h4 {
-    font-size: 0.9rem;
+    font-size: 1rem;
     padding-bottom: 12px;
   }
   

@@ -32,10 +32,18 @@
   .footer p {
     margin: 0 5vw;
     margin-left: 9vw;
+    font-size: 1.1rem;
+  }
+  .container2{
+    flex-direction: column;
   }
 
   .logo_JR {
     padding-bottom: 5px;
     margin-bottom: 14px;
+  }
+
+  span{
+    font-size: 1rem;
   }
 }

@@ -27,7 +27,7 @@ thead {
 }
 
 td {
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: var(--colorBlanco);
   font-weight: 550;
   padding: 20px 0px 20px 0px;
@@ -59,7 +59,7 @@ tr:nth-child(even) {
   td {
     width: 100%;
     padding: 0.8rem;
-    font-size: 0.7rem;
+    font-size: 1rem;
   }
 
   thead {
@@ -68,7 +68,7 @@ tr:nth-child(even) {
   }
 
   td {
-    font-size: 0.7rem;
+    font-size: 1rem;
     color: var(--colorBlanco);
     font-weight: 550;
     padding: 0.8rem;

@@ -16,7 +16,7 @@ const ContactForm = () => {
       onSubmit={handleSubmit}
       className={style.form}
     >
-      <h4>Consultas</h4>
+      <h2>Consultas</h2>
       <div className={style.form__input}>
         <label htmlFor="name"></label>
         <input
