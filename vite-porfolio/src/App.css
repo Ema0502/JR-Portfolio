@@ -35,7 +35,7 @@ html {
 
 h1,h2,h3,h4,h5,h6 {
   color: #FFF;
-  font-family: "Anita Semi-square", "Lato", sans-serif;
+  font-family: "Lato", sans-serif;
   margin: 0;
 }
 
@@ -48,7 +48,7 @@ p {
   color: #FFF;
   opacity: 75%;
   font-size: 1rem;
-  font-family: "Anita Semi-square", "Rubik", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-weight: 400;
 }
 
@@ -59,7 +59,7 @@ ul {
 
 a {
   color: unset;
-  font-family: "Anita Semi-square", "Lato", sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 a:hover {
@@ -68,7 +68,7 @@ a:hover {
 
 section, footer {
   padding: 60px 0px;
-  font-family: "Anita Semi-square";
+  font-family: "Lato", sans-serif;
 }
 
 /* custom scroll bar */
