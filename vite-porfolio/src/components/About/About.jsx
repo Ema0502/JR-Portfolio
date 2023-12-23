@@ -28,8 +28,7 @@ const About = () => {
               aboutFilter === "ABOUT" && (
                 <div className="">
                   <div className={`${style.about__content} ${style.w75}`}>
-                    <h3 className={style.about__padding_text}>Soy</h3>
-                    <h3 className={style.about__padding_text}>José Emanuel Rosas</h3>
+                    <h3 className={style.about__padding_text}>Soy José Emanuel Rosas</h3>
                     <p className={style.about__padding_text}>Desde chico estuve interesado en el mundo IT, por lo que estudié y trabajé como técnico en reparación de PC. Decidí enfocar mi camino como programador y cursé el BootCamp de Henry.
                     Actualmente me dedico a desarrollar proyectos que me permiten avanzar y potenciar mi formación como programador.
                     </p>
