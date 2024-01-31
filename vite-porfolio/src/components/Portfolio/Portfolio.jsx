@@ -2,6 +2,7 @@ import style from "./Portfolio.module.css";
 import { Container, Row, Col } from "reactstrap";
 import imgDogo from "../../img/Captura de pantalla (54).png"
 import imgPokemon from "../../img/Captura de pantalla (56).png"
+import imgToDo from "../../img/Captura de pantalla 2024-01-31 155313.png"
 import imgVehiBuy from "../../img/Captura de pantalla 2023-09-27 153019.png"
 
 const Portfolio = () => {
@@ -9,8 +10,13 @@ const Portfolio = () => {
   const portfolioData = [
     {
       image: imgVehiBuy,
-      title: "VehiBuy",
+      title: "E-commerce VehiBuy",
       url: "https://vehibuy-rho.vercel.app/"
+    },
+    {
+      image: imgToDo,
+      title: "ToDo Ts",
+      url: "https://todo-app-ts-gamma.vercel.app/"
     },
     {
       image: imgDogo,

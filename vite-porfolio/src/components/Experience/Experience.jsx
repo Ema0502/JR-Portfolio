@@ -12,21 +12,26 @@ const Experience = () => {
     {
       year: "2019 - 2022",
       title: "Servicio Técnico JR",
-      desc: "Solucionar problemas al mal funcionamiento de Sistemas. Instalación de Sistema Operativo. Mantenimiento. Reparación. Actualización y optimización con programas y Drivers."
+      desc: "Solucionar problemas al mal funcionamiento de Sistemas y equipos de computación. Reparación de hardware, instalación de Sistema Operativo, mantenimiento, reparación, actualización y optimización con programas y drivers."
     },
-  ]
-
-  const developmentExperienceData2 = [
     {
       year: "2022 - 2023",
       title: "E-commerce de Construcción",
       desc: "Tareas realizadas: Atención al publico, asistencia en tareas administrativas y consultas tecnicas."
-    },
+    }
+  ]
+
+  const developmentExperienceData2 = [
     {
       year: "2023",
-      title: "E-commerce de Autos",
-      desc: "Tareas realizadas: implementación LocalStorage con JWT, manejo de encriptacion utilizando Bcrypt, implementación del CRUD al servidor, entre otras tareas individual y grupalmente."
+      title: "Proyecto E-commerce de Autos",
+      desc: "Tareas realizadas: implementación LocalStorage con JWT, manejo de encriptación de la información utilizando Bcrypt, implementación y manejo del CRUD al servidor, participación  de la creación de una ApiRest para los datos utilizados, entre otras tareas individual y grupalmente."
     },
+    {
+      year: "2023 - 2024",
+      title: "Pasante Full Stack en E-commerce",
+      desc: "Tareas realizadas: Desempeñé un papel integral como Desarrollador en un Ecommerce especializado en chapas. Mis responsabilidades incluyeron el desarrollo y mantenimiento de aplicaciones web, la implementación de soluciones técnicas para mejorar la experiencia del usuario, así como la colaboración en el diseño. Potencié el manejo de frameworks como React y Node.js. Además, participé en la integración de servicios, la resolución de problemas para garantizar un rendimiento óptimo del sitio."
+    }
   ]
 
   return (

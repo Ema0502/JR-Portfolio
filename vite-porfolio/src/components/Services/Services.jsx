@@ -28,6 +28,11 @@ const Services = () => {
       icon: "ri-database-2-fill",
       title: "Base de Datos",
       desc: "Gestión eficiente y segura de la información.  Consultas SQL para extraer, actualizar o manipular datos en bases de datos. Establecer relaciones entre tablas y garantizar la integridad de los datos mediante restricciones."
+    },
+    {
+      icon: "ri-computer-line",
+      title: "Servicio Técnico",
+      desc: "Solucionar problemas al mal funcionamiento de Sistemas y equipos de computación. Reparación de hardware, instalación de Sistema Operativo, mantenimiento, reparación, actualización y optimización con programas y drivers."
     }
   ]
 
