@@ -13,6 +13,10 @@ import sequelizeIcon from "../../svg/sequelize-icon.svg";
 import typeScriptIcon from "../../svg/typescript-icon.svg";
 import gitIcon from "../../svg/git-icon.svg";
 import gitHubIcon from "../../svg/github-icon.svg";
+import dockerIcon from "../../svg/docker-icon.svg";
+import ajaxIcon from "../../svg/ajax-icon.svg";
+import jqueryIcon from "../../svg/jquery-icon.svg";
+import webpackIcon from "../../svg/webpack-icon.svg";
 
 const Skills = () => {
 
@@ -48,16 +52,28 @@ const Skills = () => {
       icon: css3Icon
     },
     {
+      title: "Jquery",
+      percentage: "100%",
+      grade: "Intermedio",
+      icon: jqueryIcon
+    },
+    {
+      title: "Ajax",
+      percentage: "100%",
+      grade: "Intermedio",
+      icon: ajaxIcon
+    },
+    {
+      title: "WebPack",
+      percentage: "100%",
+      grade: "Intermedio",
+      icon: webpackIcon
+    },
+    {
       title: "Git",
       percentage: "100%",
       grade: "Intermedio",
       icon: gitIcon
-    },
-    {
-      title: "GitHub",
-      percentage: "100%",
-      grade: "Intermedio",
-      icon: gitHubIcon
     }
   ]
 
@@ -77,7 +93,7 @@ const Skills = () => {
     {
       title: "TypeScript",
       percentage: "100%",
-      grade: "Inicial",
+      grade: "Intermedio",
       icon: typeScriptIcon
     },
     {
@@ -103,6 +119,18 @@ const Skills = () => {
       percentage: "100%",
       grade: "Inicial",
       icon: dotnetIcon
+    },
+    {
+      title: "Docker",
+      percentage: "100%",
+      grade: "Inicial",
+      icon: dockerIcon
+    },
+    {
+      title: "GitHub",
+      percentage: "100%",
+      grade: "Intermedio",
+      icon: gitHubIcon
     }
   ]
 
