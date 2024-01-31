@@ -28,6 +28,12 @@ const Skills = () => {
       icon: javaScriptIcon
     },
     {
+      title: "TypeScript",
+      percentage: "100%",
+      grade: "Intermedio",
+      icon: typeScriptIcon
+    },
+    {
       title: "React js",
       percentage: "100%",
       grade: "Avanzado",
@@ -68,12 +74,6 @@ const Skills = () => {
       percentage: "100%",
       grade: "Intermedio",
       icon: webpackIcon
-    },
-    {
-      title: "Git",
-      percentage: "100%",
-      grade: "Intermedio",
-      icon: gitIcon
     }
   ]
 
@@ -89,12 +89,6 @@ const Skills = () => {
       percentage: "100%",
       grade: "Avanzado",
       icon: expressIcon
-    },
-    {
-      title: "TypeScript",
-      percentage: "100%",
-      grade: "Intermedio",
-      icon: typeScriptIcon
     },
     {
       title: "PostgreSQL",
@@ -125,6 +119,12 @@ const Skills = () => {
       percentage: "100%",
       grade: "Inicial",
       icon: dockerIcon
+    },
+    {
+      title: "Git",
+      percentage: "100%",
+      grade: "Intermedio",
+      icon: gitIcon
     },
     {
       title: "GitHub",

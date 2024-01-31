@@ -35,7 +35,7 @@ const About = () => {
 
                     <div className={style.social__links}>
                       <p className={style.about__padding_text}>Puede conectar conmigo</p>
-                      <span className={style.span}><a href="https://wa.me/543876298577" target="_blank" rel="noopener noreferrer"><i className="ri-whatsapp-fill"></i></a></span>
+                      <span className={style.span}><a href="https://wa.me/541130632686" target="_blank" rel="noopener noreferrer"><i className="ri-whatsapp-fill"></i></a></span>
                       <span className={style.span}><a href="https://www.linkedin.com/in/jos%C3%A9-emanuel-rosas-31b1a8190/" target="_blank" rel="noopener noreferrer"><i className="ri-linkedin-fill"></i></a></span>
                       <span className={style.span}><a href="https://github.com/Ema0502" target="_blank" rel="noopener noreferrer"><i className="ri-github-fill"></i></a></span>
                       <span className={style.span}><a href="https://www.instagram.com/ema_rosas05/" target="_blank" rel="noopener noreferrer"><i className="ri-instagram-fill"></i></a></span>
