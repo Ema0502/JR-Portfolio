@@ -110,7 +110,7 @@ const Header = () => {
             <button className={style.btn}>
               <a
                 aria-label="Chat en WhatsApp"
-                href="https://wa.me/543876298577"
+                href="https://wa.me/541130632686"
                 target="_blank"
                 rel="noopener noreferrer"
               >
