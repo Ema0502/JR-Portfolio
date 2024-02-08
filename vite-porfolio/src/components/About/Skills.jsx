@@ -1,4 +1,4 @@
-import style from "./Skills.module.css"
+import style from "./Skills.module.css";
 import cSharpIcon from "../../svg/csharp-icon.svg";
 import css3Icon from "../../svg/css-3-icon.svg";
 import dotnetIcon from "../../svg/dotnet-NET-8.svg";
@@ -17,162 +17,170 @@ import dockerIcon from "../../svg/docker-icon.svg";
 import ajaxIcon from "../../svg/ajax-icon.svg";
 import jqueryIcon from "../../svg/jquery-icon.svg";
 import webpackIcon from "../../svg/webpack-icon.svg";
+import mongoDbIcon from "../../svg/mongodb-svgrepo-com.svg";
 
 const Skills = () => {
-
   const frontendSkills = [
     {
       title: "JavaScript",
       percentage: "100%",
       grade: "Avanzado",
-      icon: javaScriptIcon
+      icon: javaScriptIcon,
     },
     {
       title: "TypeScript",
       percentage: "100%",
       grade: "Intermedio",
-      icon: typeScriptIcon
+      icon: typeScriptIcon,
     },
     {
       title: "React js",
       percentage: "100%",
       grade: "Avanzado",
-      icon: reactJsIcon
+      icon: reactJsIcon,
     },
     {
       title: "Redux",
       percentage: "100%",
       grade: "Avanzado",
-      icon: reduxIcon
+      icon: reduxIcon,
     },
     {
       title: "HTML",
       percentage: "100%",
       grade: "Avanzado",
-      icon: html5Icon
+      icon: html5Icon,
     },
     {
       title: "CSS",
       percentage: "100%",
       grade: "Intermedio",
-      icon: css3Icon
+      icon: css3Icon,
     },
     {
       title: "Jquery",
       percentage: "100%",
       grade: "Intermedio",
-      icon: jqueryIcon
+      icon: jqueryIcon,
     },
     {
       title: "Ajax",
       percentage: "100%",
       grade: "Intermedio",
-      icon: ajaxIcon
+      icon: ajaxIcon,
     },
     {
       title: "WebPack",
       percentage: "100%",
       grade: "Intermedio",
-      icon: webpackIcon
-    }
-  ]
+      icon: webpackIcon,
+    },
+  ];
 
   const backendSkills = [
     {
       title: "Node js",
       percentage: "100%",
       grade: "Avanzado",
-      icon: noseJsIcon
+      icon: noseJsIcon,
     },
     {
       title: "Express",
       percentage: "100%",
       grade: "Avanzado",
-      icon: expressIcon
+      icon: expressIcon,
     },
     {
       title: "PostgreSQL",
       percentage: "100%",
       grade: "Avanzado",
-      icon: postgreSqlIcon
+      icon: postgreSqlIcon,
     },
     {
       title: "Sequelize",
       percentage: "100%",
       grade: "Avanzado",
-      icon: sequelizeIcon
+      icon: sequelizeIcon,
+    },
+    {
+      title: "MongoDb",
+      percentage: "100%",
+      grade: "Intermedio",
+      icon: mongoDbIcon,
     },
     {
       title: "C#",
       percentage: "100%",
       grade: "Inicial",
-      icon: cSharpIcon
+      icon: cSharpIcon,
     },
     {
       title: ".NET",
       percentage: "100%",
       grade: "Inicial",
-      icon: dotnetIcon
+      icon: dotnetIcon,
     },
     {
       title: "Docker",
       percentage: "100%",
       grade: "Inicial",
-      icon: dockerIcon
+      icon: dockerIcon,
     },
     {
       title: "Git",
       percentage: "100%",
       grade: "Intermedio",
-      icon: gitIcon
+      icon: gitIcon,
     },
     {
       title: "GitHub",
       percentage: "100%",
       grade: "Intermedio",
-      icon: gitHubIcon
+      icon: gitHubIcon,
     }
-  ]
+  ];
 
   return (
     <div className={style.skills__wrapper}>
       <div className={style.frontend__skills}>
-        {
-          frontendSkills.map((item, index) => (
-            <div className={style.skill__data} key={index}>
-              <div className={style.skill__title}>
-                <img src={item.icon} alt="Programming Icon" />
-                <h6>{item.title}</h6>
-                <span>{item.grade}</span>
-              </div>
-
-              <div className={style.skill__bar}>
-                <span className={style.skill__bar_percentage} style={{width: `${item.percentage}`}}></span>
-              </div>
+        {frontendSkills.map((item, index) => (
+          <div className={style.skill__data} key={index}>
+            <div className={style.skill__title}>
+              <img src={item.icon} alt="Programming Icon" />
+              <h6>{item.title}</h6>
+              <span>{item.grade}</span>
             </div>
-          ))
-        }
+
+            <div className={style.skill__bar}>
+              <span
+                className={style.skill__bar_percentage}
+                style={{ width: `${item.percentage}` }}
+              ></span>
+            </div>
+          </div>
+        ))}
       </div>
 
       <div className={style.backend__skills}>
-      {
-          backendSkills.map((item, index) => (
-            <div className={style.skill__data} key={index}>
-              <div className={style.skill__title}>
-                <img src={item.icon} alt="Programming Icon" />
-                <h6>{item.title}</h6>
-                <span>{item.grade}</span>
-              </div>
-
-              <div className={style.skill__bar}>
-                <span className={style.skill__bar_percentage} style={{width: `${item.percentage}`}}></span>
-              </div>
+        {backendSkills.map((item, index) => (
+          <div className={style.skill__data} key={index}>
+            <div className={style.skill__title}>
+              <img src={item.icon} alt="Programming Icon" />
+              <h6>{item.title}</h6>
+              <span>{item.grade}</span>
             </div>
-          ))
-        }
+
+            <div className={style.skill__bar}>
+              <span
+                className={style.skill__bar_percentage}
+                style={{ width: `${item.percentage}` }}
+              ></span>
+            </div>
+          </div>
+        ))}
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default Skills;

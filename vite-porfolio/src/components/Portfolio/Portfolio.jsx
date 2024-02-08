@@ -53,7 +53,7 @@ const Portfolio = () => {
                 <a href={item.url} target="_blank" rel="noopener noreferrer">
                   <div className={style.portfolio__content}>
                     <h5>{item.title}</h5>
-                    <h6>Click aqui para ver en vivo</h6>
+                    <h6>Click para ver en vivo</h6>
                     <h5>Landing page</h5>
                   </div>
                 </a>
