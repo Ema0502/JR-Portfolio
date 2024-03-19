@@ -15,12 +15,12 @@ const Contact = () => {
             <div className={style.contact__info_container}>
               <div className={style.single__info_box}>
                 <h6>Locación</h6>
-                <p>Salta, Argentina</p>
+                <p>Buenos Aires, Argentina</p>
               </div>
 
               <div className={style.single__info_box}>
                 <h6>Teléfono</h6>
-                <p>+54 387 9 6298 577</p>
+                <p>+54 11 3063 2686</p>
               </div>
             </div>
 
@@ -32,7 +32,7 @@ const Contact = () => {
 
               <div className={style.single__info_box}>
                 <h6>Dirección</h6>
-                <p>V. Palacios - Salta Capital </p>
+                <p>GBA Zona Norte, Argentina </p>
               </div>
             </div>
             <ContactForm />
